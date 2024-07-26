@@ -109,14 +109,6 @@ if st.button("Predict"):
     with col2:
         st.pyplot(create_gauge_chart(confidence, "Prediction Confidence"))
 
-    # Display interpretation
-    if probability > 0.7:
-        st.error("Warning: The model indicates a high risk of developing Alzheimer's Disease. Please consult with a healthcare professional.")
-    elif probability > 0.3:
-        st.warning("Info: The model indicates a moderate risk of developing Alzheimer's Disease. Regular check-ups are recommended.")
-    else:
-        st.success("Good news: The model indicates a low risk of developing Alzheimer's Disease. Maintain a healthy lifestyle to keep the risk low.")
-
 # Add information about the model
 st.markdown("""
 ## About This Model
