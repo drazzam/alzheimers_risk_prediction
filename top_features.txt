@@ -1,0 +1,10 @@
+Right-Inf-Lat-Vent_volume
+rh_middletemporal_thickness
+rh_temporalpole_thickness
+lh_lateraloccipital_thickness
+rh_lateraloccipital_thickness
+WM-hypointensities_volume
+rh_parahippocampal_volume
+3rd-Ventricle_volume
+rh_fusiform_thickness
+lh_supramarginal_thickness
